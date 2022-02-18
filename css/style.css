@@ -1,0 +1,243 @@
+body, html {
+    background-color: #ebebd5;
+
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#curology {
+    background-image: url(/Users/carolinegarde/Developement/code/responsive-brochure-site-lab/images/curology-6CJg-fOTYs4-unsplash_1000.png);
+    background-position: center top, left top;
+    background-repeat: no-repeat, repeat-y;
+    padding: 0px;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+}
+
+   .leftsocial {
+       float: left;
+       padding: 20px;
+    }
+
+    .rightsearch {
+        float: right;
+        padding: 20px;
+    }
+
+    .searchicon {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+    .centerlogo {
+        padding: 20px;
+        margin: 0;;
+    }
+
+    .manselogo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+    .topnav {
+        position: relative;
+        top: 10px;
+        left: 10px;
+        text-align: center;
+        width: 100%;
+        z-index: 1;
+        font-family: "Haboro Contrast";
+        text-decoration: none;
+    }
+
+    .topnav a {
+        float: top;
+        color: #506372;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        letter-spacing: 2px;
+          }
+
+          #about {
+            padding: 560px 10px 0px 10px
+          }
+
+          h1 {
+              font-size: 30px;
+              font-family: "Haboro Contrast";
+              color: #8f8164;
+              text-align: center;
+              margin-bottom: 5px;
+            }
+
+            p {
+                font-size: 14px;
+                font-family: "Gotham Light";
+                color: #506372;
+                text-align: center; 
+                line-height: 20px;
+                margin-top: 2px;
+            }
+
+            #aside p {
+                font-size: 20px;
+                font-family: "Gotham Light";
+                font-style: italic;
+                color: #8f8164;
+                text-align: center; 
+                line-height: 30px;
+                border-bottom: 1px solid #8f8164;
+                border-top: 1px solid #8f8164;
+            }
+
+            #collections {
+                padding: 0;
+              }
+
+           
+            .column {
+                float: left;
+                width: 25%;
+                padding: 10px 5px 20px 5px;                
+              }
+              
+              /* Clearfix (clear floats) */
+              .row::after {
+                content: "";
+                clear: both;
+                display: table;
+              }
+
+              .row img {
+                border: 3px solid white;
+              }
+
+              h2 {
+                font-size: 16px;
+                font-family: "Haboro Contrast";
+                color: #8f8164;
+                text-align: center;
+                margin-bottom: 5px;
+              }
+
+              .column p {
+                font-size: 12px;
+                font-family: "Gotham Light";
+                color: #506372;
+                text-align: center; 
+                line-height: 15px;
+                margin: 0;
+              }
+
+              .container {
+                position: relative;
+              }
+
+              .text-block {
+                position: absolute;
+                bottom: 30px;
+                right: 30px;
+                top: 30px;
+                background-color: rgb(255,255,255,.9);
+                color: #506372;
+                padding-left: 20px;
+                padding-right: 20px;
+                width: 260px;
+                height: 370px;
+              }
+
+
+              
+              h4 {
+                font-size: 14px;
+                font-family: "Gotham Book";
+                color: #506372;
+                text-align: left;
+                margin-bottom: 5px;
+              }
+
+              .column-footer {
+                float: left;
+                width: 33.33%;
+                padding: 10px; 
+                padding: 0 6px 40px 40px;
+            }  
+
+              .column-footer p {
+                font-size: 12px;
+                font-family: "Gotham Light";
+                color: #506372;
+                text-align: left; 
+                line-height: 15px;
+                margin: 0;
+                }
+
+                .column-footer a{
+                font-size: 12px;
+                font-family: "Gotham Light";
+                color: #506372;
+                text-align: left; 
+                line-height: 23px;
+                margin: 0;
+                text-decoration: none;
+                }
+
+                                       
+              /* Clearfix (clear floats) */
+              .row-footer::after {
+                content: "";
+                clear: both;
+                display: table;
+              }
+              
+              .border_right {
+                border-right: 1px solid #8f8164;
+                padding-right: 20px;
+              }
+              
+
+
+
+
+              
+
+            
+
+            
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
