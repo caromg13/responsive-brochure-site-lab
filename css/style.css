@@ -1,86 +1,73 @@
 body, html {
-    background-color: #ebebd5;
-
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 10px;
+  background-color: #ebebd5;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #curology {
-    background-image: url(/Users/carolinegarde/Developement/code/responsive-brochure-site-lab/images/curology-6CJg-fOTYs4-unsplash_1000.png);
-    background-position: center top, left top;
-    background-repeat: no-repeat, repeat-y;
-    padding: 0px;
+  background-image: url(/Users/carolinegarde/Developement/code/responsive-brochure-site-lab/images/curology-6CJg-fOTYs4-unsplash_1000.png);
+  background-position: center top, left top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 63vh;
+  padding: 20px;
 }
 
-.clearfix:after {
-    content: ".";
-    display: block;
-    clear: both;
-    visibility: hidden;
-    height: 0;
-    line-height: 0;
+.leftsocial {
+  float: left;
+  width: 35%;
 }
 
-   .leftsocial {
-       float: left;
-       padding: 20px;
-    }
+.centerlogo {
+  padding: 0 0 0 56px;
+  width: 60%;
+  display: inline-block;
+}
 
-    .rightsearch {
-        float: right;
-        padding: 20px;
-    }
+.rightsearch {
+  float: right;
+}
 
-    .searchicon {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    }
+.searchicon {
+  overflow: hidden;
+}
 
-    .clear {
-        clear: both;
-    }
+.clear {
+  clear: both;
+}
 
-    .centerlogo {
-        padding: 20px;
-        margin: 0;;
-    }
+.topnav {
+  text-align: center;
+  width: 100%;
+  font-family: "Haboro Contrast";
+  text-decoration: none;
+  padding: 20px;
+}
 
-    .manselogo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-  
-    .topnav {
-        position: relative;
-        top: 10px;
-        left: 10px;
-        text-align: center;
-        width: 100%;
-        z-index: 1;
-        font-family: "Haboro Contrast";
-        text-decoration: none;
-    }
+.topnav a {
+  color: #506372;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  letter-spacing: 2px;
+}
 
-    .topnav a {
-        float: top;
-        color: #506372;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-        letter-spacing: 2px;
-          }
+.navbutton {
+  color: #506372;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  letter-spacing: 10px;
 
-          #about {
-            padding: 560px 10px 0px 10px
-          }
+}
 
           h1 {
               font-size: 30px;
@@ -110,11 +97,6 @@ body, html {
                 border-top: 1px solid #8f8164;
             }
 
-            #collections {
-                padding: 0;
-              }
-
-           
             .column {
                 float: left;
                 width: 25%;
@@ -214,6 +196,45 @@ body, html {
                 border-right: 1px solid #8f8164;
                 padding-right: 20px;
               }
+
+              
+/* 1px to 1000px - tablet*/
+@media screen and (max-width: 1920px) {
+
+    .wrapper {
+        width: 90%;
+      }
+       .column {
+        width: 100%;
+        float: none;
+       }
+       .column-footer {
+        float: none;
+        width: 100%;
+      }
+      .navbutton {
+        display: none;
+      } 
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+  
+  .navbutton {
+    float: none;
+    display: block;
+  } 
+
+  .topnav a {
+    display: none;
+    float: block;
+  }
+  
+}
+
+
+
+              
               
 
 
